@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS infographics (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    title TEXT NOT NULL,
+    description TEXT NOT NULL,
+    data JSON NOT NULL
+);
